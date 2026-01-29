@@ -4,8 +4,23 @@ import { Project } from '../types';
 
 const Projects: React.FC = () => {
   const projects: Project[] = [
-      {
+    {
           id: 1,
+          title: "Stage chez Désirade",
+          date: "Juin 2025",
+          context: "Stage",
+          image: "/img/desirade.png",
+          description: {
+              need: "S'intégrer dans une structure professionnelle, comprendre les processus métiers et participer aux réunions clients.",
+              solution: "Stage de 10 semaines au sein de l'ESN Désirade (Toulouse) en tant que développeur.",
+              result: "Intégration professionnelle réussie, participation active aux livrables techniques et compréhension des enjeux clients."
+          },
+          links: {
+              github: "https://www.canva.com/design/DAGp76tCkG4/Xcjp3MztZRx1rXsyRYzm-Q/edit?utm_content=DAGp76tCkG4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          }
+      },
+      {
+          id: 2,
           title: "That One Dino Game",
           date: "été 2024",
           context: "Personnel",
@@ -20,7 +35,7 @@ const Projects: React.FC = () => {
           }
       },
     {
-      id: 2,
+      id: 3,
       title: "Projet de cours PHP: Gestion d'équipe sportive",
       date: "3eme semestre IUT, 2024",
       context: "École",
@@ -35,7 +50,7 @@ const Projects: React.FC = () => {
       }
     },
     {
-      id: 3,
+      id: 4,
       title: "Gestion Immobilière (Projet Groupe)",
       date: "Janvier 2025",
       context: "École",
@@ -49,21 +64,6 @@ const Projects: React.FC = () => {
         github: "https://github.com/Aurelien-vr/S3C01",
       }
     },
-    {
-          id: 4,
-          title: "Stage chez Désirade",
-          date: "Juin 2025",
-          context: "Stage",
-          image: "/img/desirade.png",
-          description: {
-              need: "S'intégrer dans une structure professionnelle, comprendre les processus métiers et participer aux réunions clients.",
-              solution: "Stage de 10 semaines au sein de l'ESN Désirade (Toulouse) en tant que développeur.",
-              result: "Intégration professionnelle réussie, participation active aux livrables techniques et compréhension des enjeux clients."
-          },
-          links: {
-              github: "https://www.canva.com/design/DAGp76tCkG4/Xcjp3MztZRx1rXsyRYzm-Q/edit?utm_content=DAGp76tCkG4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-          }
-      },
       {
           id: 5,
           title: "Idle Tower",
