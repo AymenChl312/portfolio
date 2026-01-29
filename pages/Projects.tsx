@@ -11,9 +11,9 @@ const Projects: React.FC = () => {
           context: "Personnel",
           image: "/img/dino.gif",
           description: {
-              need: "Apprendre à gérer une équipe composé d'inconnu sur internet en tant que chef pour créer un début de jeu vidéo classifié platformer.",
-              solution: "Utilisation de Unity(C#) pour le code et utilisation de la plateforme Discord pour rencontrer des gens interessé et pour s'organiser. Nous étions un dévellopeur, un UI/UX designer, deux dessinateurs, un compositeur.",
-              result: "4 niveaux disponible publiquement et un bon apprentissage de la gestion d'équipe."
+              need: "Apprendre à manager une équipe de collaborateurs bénévoles à distance pour créer un prototype de jeu de plateforme.",
+              solution: "Recrutement et organisation via Discord (1 Développeur, 1 UI/UX Designer, 2 Artistes, 1 Compositeur). Développement du moteur de jeu sous Unity (C#).",
+              result: "4 niveaux jouables disponibles publiquement. Acquisition de solides compétences en leadership et gestion d'équipe à distance."
           },
           links: {
               github: "https://github.com/AymenChl312/ThatOneDinoGame"
@@ -21,14 +21,14 @@ const Projects: React.FC = () => {
       },
     {
       id: 2,
-      title: "Projet de cours PHP: Site de gestion d'équipe de sport.",
+      title: "Projet de cours PHP: Gestion d'équipe sportive",
       date: "3eme semestre IUT, 2024",
       context: "École",
       image: "/img/php_quidditch.png",
       description: {
-        need: "Notre client (notre professeur de PHP) voulait un site web hebergé et disponible 24h/24. Ce site lui permettrait de gérer une équipe de sport (de notre choix), de pouvoir rajouté et enlever des joueurs, de leur donnait des notes et de faire un planning de match.",
-        solution: "Développement d'une application web en html, css et php en suivant le principe de MVC",
-        result: "Bon apprentissage de la mise en ligne de site internet ainsi que du langage PHP."
+        need: "Concevoir un site web dynamique hébergé et disponible 24/7 pour la gestion complète d'une équipe sportive (effectif, notations, planning de matchs).",
+        solution: "Développement d'une application web en HTML5, CSS3 et PHP natif en respectant strictement l'architecture MVC.",
+        result: "Maîtrise de l'architecture MVC, du langage PHP et des contraintes liées au déploiement et à l'hébergement web."
       },
       links: {
         github: "https://github.com/Eiior/Projet_PHP"
@@ -36,14 +36,14 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      title: "Projet Groupe 4eme semestre IUT",
+      title: "Gestion Immobilière (Projet Groupe)",
       date: "Janvier 2025",
       context: "École",
       image: "/img/batiment.png",
       description: {
-        need: "Créer une application de gestion immobilliere avec tres grande base de données.",
-        solution: "Application codé en JAVA.",
-        result: "Travail en équipe de 5 personnes bien réalisé avec une application fonctionnelle. Bon apprentissage de JAVA et des bases de données.",
+        need: "Développer une application de gestion immobilière performante capable de traiter une base de données volumineuse.",
+        solution: "Conception et développement d'une application lourde en JAVA avec gestion optimisée des données.",
+        result: "Projet livré fonctionnel grâce à une excellente coordination d'équipe (5 personnes). Renforcement des compétences en JAVA et en modélisation de bases de données."
       },
       links: {
         github: "https://github.com/Aurelien-vr/S3C01",
@@ -51,14 +51,14 @@ const Projects: React.FC = () => {
     },
     {
           id: 4,
-          title: "Stage Désirade",
+          title: "Stage chez Désirade",
           date: "Juin 2025",
           context: "Stage",
           image: "/img/desirade.png",
           description: {
-              need: "Apprendre à travailler dans une grande équipe et faire des rendez vous avec des clients pour comprendre leurs besoins.",
-              solution: "Stage de 10 semaines dans l'entreprise Désirade à Toulouse en tant que développeur.",
-              result: "Premier pas réussi dans le monde professionnel."
+              need: "S'intégrer dans une structure professionnelle, comprendre les processus métiers et participer aux réunions clients.",
+              solution: "Stage de 10 semaines au sein de l'ESN Désirade (Toulouse) en tant que développeur.",
+              result: "Intégration professionnelle réussie, participation active aux livrables techniques et compréhension des enjeux clients."
           },
           links: {
               github: "https://www.canva.com/design/DAGp76tCkG4/Xcjp3MztZRx1rXsyRYzm-Q/edit?utm_content=DAGp76tCkG4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
@@ -71,9 +71,9 @@ const Projects: React.FC = () => {
           context: "Personnel",
           image: "/img/IdleTower.gif",
           description: {
-              need: "Apprendre à créer un jeu qui se joue automatiquement grace au systeme de géneration de chemin.",
-              solution: "Utilisation de Unity(C#) pour le code.",
-              result: "1 niveau disponible publiquement et un bon apprentissage de la génération de chemin dans Unity."
+              need: "Concevoir un jeu autonome ('Idle Game') reposant sur des algorithmes de génération de chemin (Pathfinding).",
+              solution: "Développement complet sous Unity (C#) avec implémentation de systèmes automatisés.",
+              result: "1 niveau jouable publié. Maîtrise des algorithmes de génération procédurale et de pathfinding sous Unity."
           },
           links: {
               github: "https://github.com/AymenChl312/TowerIdle"
@@ -86,15 +86,14 @@ const Projects: React.FC = () => {
           context: "École",
           image: "/img/PicReady.gif",
           description: {
-              need: "Réalisation de projet de A à Z avec champs libre donné par les professeurs.",
-              solution: "Nous avons decidé avec mon équipe de créer un réseau social nommé PicReady. Nous avons suivi la gestion de projet SCRUM, j'étais donc dans le role du Product Owner.",
-              result: "Application réalisé à son terme disponible au téléchargements. Bon apprentissage de la gestion de projet en tant que Product Owner. Apprentissage du deploiement d'une application mobile."
+              need: "Mener un projet de fin d'étude de A à Z avec 'Carte Blanche' sur le sujet et la technologie.",
+              solution: "Création du réseau social 'PicReady'. Application de la méthode Agile SCRUM, où j'ai occupé le rôle de Product Owner.",
+              result: "Application mobile finalisée et disponible au téléchargement. Solide expérience acquise en gestion de projet Agile (Product Owner) et en déploiement mobile."
           },
           links: {
               github: "https://github.com/Yeesou/Pic-Ready"
           }
       },
-
   ];
 
   const getContextBadgeColor = (context: string) => {
