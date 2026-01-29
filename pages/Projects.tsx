@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
           description: {
               need: "Apprendre à gérer une équipe composé d'inconnu sur internet en tant que chef pour créer un début de jeu vidéo classifié platformer.",
               solution: "Utilisation de Unity(C#) pour le code et utilisation de la plateforme Discord pour rencontrer des gens interessé et pour s'organiser. Nous étions un dévellopeur, un UI/UX designer, deux dessinateurs, un compositeur.",
-              result: "4 niveaux disponible sur Itch.io et un bon apprentissage de la gestion d'équipe."
+              result: "4 niveaux disponible publiquement et un bon apprentissage de la gestion d'équipe."
           },
           links: {
               github: "https://github.com/AymenChl312/ThatOneDinoGame"
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
       description: {
         need: "Notre client (notre professeur de PHP) voulait un site web hebergé et disponible 24h/24. Ce site lui permettrait de gérer une équipe de sport (de notre choix), de pouvoir rajouté et enlever des joueurs, de leur donnait des notes et de faire un planning de match.",
         solution: "Développement d'une application web en html, css et php en suivant le principe de MVC",
-        result: "Une bonne note pour ma collègue et moi"
+        result: "Bon apprentissage de la mise en ligne de site internet ainsi que du langage PHP."
       },
       links: {
         github: "https://github.com/Eiior/Projet_PHP"
@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
       description: {
         need: "Créer une application de gestion immobilliere avec tres grande base de données.",
         solution: "Application codé en JAVA.",
-        result: "2eme année d'IUT réussie haut la main."
+        result: "Travail en équipe de 5 personnes bien réalisé avec une application fonctionnelle. Bon apprentissage de JAVA et des bases de données.",
       },
       links: {
         github: "https://github.com/Aurelien-vr/S3C01",
@@ -73,7 +73,7 @@ const Projects: React.FC = () => {
           description: {
               need: "Apprendre à créer un jeu qui se joue automatiquement grace au systeme de géneration de chemin.",
               solution: "Utilisation de Unity(C#) pour le code.",
-              result: "1 niveau disponible sur Itch.io."
+              result: "1 niveau disponible publiquement et un bon apprentissage de la génération de chemin dans Unity."
           },
           links: {
               github: "https://github.com/AymenChl312/TowerIdle"
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
           description: {
               need: "Réalisation de projet de A à Z avec champs libre donné par les professeurs.",
               solution: "Nous avons decidé avec mon équipe de créer un réseau social nommé PicReady. Nous avons suivi la gestion de projet SCRUM, j'étais donc dans le role du Product Owner.",
-              result: "Application réalisé à son terme disponible au téléchargements."
+              result: "Application réalisé à son terme disponible au téléchargements. Bon apprentissage de la gestion de projet en tant que Product Owner. Apprentissage du deploiement d'une application mobile."
           },
           links: {
               github: "https://github.com/Yeesou/Pic-Ready"
