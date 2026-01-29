@@ -5,17 +5,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import CV from './pages/CV';
 
-// Simple placeholders for other routes
-const CVPlaceholder = () => (
-  <div className="flex-grow flex items-center justify-center bg-slate-50 p-8">
-    <div className="text-center">
-      <h1 className="text-2xl font-bold text-slate-800 mb-4">Curriculum Vitae</h1>
-      <p className="text-slate-600 mb-6">[Insérer le PDF du CV ici ou un lien de téléchargement]</p>
-      <button className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">Télécharger PDF</button>
-    </div>
-  </div>
-);
 
 const ContactPlaceholder = () => (
   <div className="flex-grow flex items-center justify-center bg-slate-50 p-8">
@@ -47,9 +38,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/competences" element={<Skills />} />
           <Route path="/projets" element={<Projects />} />
-          <Route path="/cv" element={<CVPlaceholder />} />
+          <Route path="/cv" element={<CV />} />
           <Route path="/contact" element={<ContactPlaceholder />} />
-          {/* Fallback route */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />

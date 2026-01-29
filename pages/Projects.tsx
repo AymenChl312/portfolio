@@ -3,22 +3,20 @@ import { ExternalLink, Github, Gamepad2 } from 'lucide-react';
 import { Project } from '../types';
 
 const Projects: React.FC = () => {
-  // Data Placeholders for Projects
   const projects: Project[] = [
       {
           id: 1,
           title: "That One Dino Game",
           date: "été 2024",
           context: "Personnel",
-          image: "https://picsum.photos/600/350?random=3",
+          image: "../img/dino.gif",
           description: {
               need: "Apprendre à gérer une équipe composé d'inconnu sur internet en tant que chef pour créer un début de jeu vidéo classifié platformer.",
               solution: "Utilisation de Unity(C#) pour le code et utilisation de la plateforme Discord pour rencontrer des gens interessé et pour s'organiser. Nous étions un dévellopeur, un UI/UX designer, deux dessinateurs, un compositeur.",
               result: "4 niveaux disponible sur Itch.io et un bon apprentissage de la gestion d'équipe."
           },
           links: {
-              github: "https://github.com",
-              demo: "#"
+              github: "https://github.com/AymenChl312/ThatOneDinoGame"
           }
       },
     {
@@ -26,15 +24,14 @@ const Projects: React.FC = () => {
       title: "Projet de cours PHP: Site de gestion d'équipe de sport.",
       date: "3eme semestre IUT, 2024",
       context: "École",
-      image: "https://picsum.photos/600/350?random=1",
+      image: "../img/php_quidditch.png",
       description: {
         need: "Notre client (notre professeur de PHP) voulait un site web hebergé et disponible 24h/24. Ce site lui permettrait de gérer une équipe de sport (de notre choix), de pouvoir rajouté et enlever des joueurs, de leur donnait des notes et de faire un planning de match.",
         solution: "Développement d'une application web en html, css et php en suivant le principe de MVC",
         result: "Une bonne note pour ma collègue et moi"
       },
       links: {
-        github: "https://github.com",
-        demo: "https://example.com"
+        github: "https://github.com/Eiior/Projet_PHP"
       }
     },
     {
@@ -42,47 +39,59 @@ const Projects: React.FC = () => {
       title: "Projet Groupe 4eme semestre IUT",
       date: "Janvier 2025",
       context: "École",
-      image: "https://picsum.photos/600/350?random=2",
+      image: "../img/batiment.png",
       description: {
         need: "Créer une application de gestion immobilliere avec tres grande base de données.",
         solution: "Application codé en JAVA.",
         result: "2eme année d'IUT réussie haut la main."
       },
       links: {
-        github: "https://github.com",
-        demo: "#" 
+        github: "https://github.com/Aurelien-vr/S3C01",
       }
     },
-      {
+    {
           id: 4,
+          title: "Stage Désirade",
+          date: "Juin 2025",
+          context: "Stage",
+          image: "../img/desirade.png",
+          description: {
+              need: "Apprendre à travailler dans une grande équipe et faire des rendez vous avec des clients pour comprendre leurs besoins.",
+              solution: "Stage de 10 semaines dans l'entreprise Désirade à Toulouse en tant que développeur.",
+              result: "Premier pas réussi dans le monde professionnel."
+          },
+          links: {
+              github: "https://www.canva.com/design/DAGp76tCkG4/Xcjp3MztZRx1rXsyRYzm-Q/edit?utm_content=DAGp76tCkG4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          }
+      },
+      {
+          id: 5,
           title: "Idle Tower",
           date: "Septembre 2025",
           context: "Personnel",
-          image: "https://picsum.photos/600/350?random=3",
+          image: "../img/IdleTower.gif",
           description: {
               need: "Apprendre à créer un jeu qui se joue automatiquement grace au systeme de géneration de chemin.",
               solution: "Utilisation de Unity(C#) pour le code.",
               result: "1 niveau disponible sur Itch.io."
           },
           links: {
-              github: "https://github.com",
-              demo: "#"
+              github: "https://github.com/AymenChl312/TowerIdle"
           }
       },
       {
-          id: 5,
+          id: 6,
           title: "Pic Ready",
           date:"Janvier 2026",
           context: "École",
-          image: "https://picsum.photos/600/350?random=3",
+          image: "../img/PicReady.gif",
           description: {
               need: "Réalisation de projet de A à Z avec champs libre donné par les professeurs.",
               solution: "Nous avons decidé avec mon équipe de créer un réseau social nommé PicReady. Nous avons suivi la gestion de projet SCRUM, j'étais donc dans le role du Product Owner.",
               result: "Application réalisé à son terme disponible au téléchargements."
           },
           links: {
-              github: "https://github.com",
-              demo: "#"
+              github: "https://github.com/Yeesou/Pic-Ready"
           }
       },
 
@@ -117,7 +126,7 @@ const Projects: React.FC = () => {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute top-4 right-4">
                   <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wide ${getContextBadgeColor(project.context)}`}>

@@ -16,23 +16,32 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Social Links */}
-          <div className="space-y-4">
-            <h3 className="text-sm font-semibold text-white tracking-wider uppercase">Réseaux</h3>
-            <div className="flex space-x-6">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
-                <span className="sr-only">LinkedIn</span>
-                <Linkedin size={24} />
-              </a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors">
-                <span className="sr-only">GitHub</span>
-                <Github size={24} />
-              </a>
-              <a href="mailto:email@example.com" className="text-slate-400 hover:text-white transition-colors">
-                <span className="sr-only">Email</span>
-                <Mail size={24} />
-              </a>
+            <div className="space-y-4">
+              <h3 className="text-sm font-semibold text-white tracking-wider uppercase">Réseaux</h3>
+              <div className="flex space-x-6">
+                {/* LinkedIn */}
+                <a 
+                  href="https://www.linkedin.com/in/aymen-chlabi-30a55026a" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  <span className="sr-only">LinkedIn</span>
+                  <Linkedin size={24} />
+                </a>
+
+                {/* GitHub */}
+                <a 
+                  href="https://github.com/AymenChl312" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  <span className="sr-only">GitHub</span>
+                  <Github size={24} />
+                </a>
+              </div>
             </div>
-          </div>
 
           {/* Copyright / Legal */}
           <div className="space-y-4 md:text-right">
