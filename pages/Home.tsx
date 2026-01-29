@@ -46,7 +46,7 @@ const Home: React.FC = () => {
                 <div className="absolute inset-0 bg-blue-100 rounded-full transform translate-x-4 translate-y-4"></div>
                 <img
                   className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
-                  src="../img/portrait.jpg"
+                  src="/img/Portrait.jpg"
                   alt="Portrait de Aymen Chlabi"
                 />
               </div>

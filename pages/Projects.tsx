@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
           title: "That One Dino Game",
           date: "été 2024",
           context: "Personnel",
-          image: "../img/dino.gif",
+          image: "/img/dino.gif",
           description: {
               need: "Apprendre à gérer une équipe composé d'inconnu sur internet en tant que chef pour créer un début de jeu vidéo classifié platformer.",
               solution: "Utilisation de Unity(C#) pour le code et utilisation de la plateforme Discord pour rencontrer des gens interessé et pour s'organiser. Nous étions un dévellopeur, un UI/UX designer, deux dessinateurs, un compositeur.",
@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
       title: "Projet de cours PHP: Site de gestion d'équipe de sport.",
       date: "3eme semestre IUT, 2024",
       context: "École",
-      image: "../img/php_quidditch.png",
+      image: "/img/php_quidditch.png",
       description: {
         need: "Notre client (notre professeur de PHP) voulait un site web hebergé et disponible 24h/24. Ce site lui permettrait de gérer une équipe de sport (de notre choix), de pouvoir rajouté et enlever des joueurs, de leur donnait des notes et de faire un planning de match.",
         solution: "Développement d'une application web en html, css et php en suivant le principe de MVC",
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
       title: "Projet Groupe 4eme semestre IUT",
       date: "Janvier 2025",
       context: "École",
-      image: "../img/batiment.png",
+      image: "/img/batiment.png",
       description: {
         need: "Créer une application de gestion immobilliere avec tres grande base de données.",
         solution: "Application codé en JAVA.",
@@ -54,7 +54,7 @@ const Projects: React.FC = () => {
           title: "Stage Désirade",
           date: "Juin 2025",
           context: "Stage",
-          image: "../img/desirade.png",
+          image: "/img/desirade.png",
           description: {
               need: "Apprendre à travailler dans une grande équipe et faire des rendez vous avec des clients pour comprendre leurs besoins.",
               solution: "Stage de 10 semaines dans l'entreprise Désirade à Toulouse en tant que développeur.",
@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
           title: "Idle Tower",
           date: "Septembre 2025",
           context: "Personnel",
-          image: "../img/IdleTower.gif",
+          image: "/img/IdleTower.gif",
           description: {
               need: "Apprendre à créer un jeu qui se joue automatiquement grace au systeme de géneration de chemin.",
               solution: "Utilisation de Unity(C#) pour le code.",
@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
           title: "Pic Ready",
           date:"Janvier 2026",
           context: "École",
-          image: "../img/PicReady.gif",
+          image: "/img/PicReady.gif",
           description: {
               need: "Réalisation de projet de A à Z avec champs libre donné par les professeurs.",
               solution: "Nous avons decidé avec mon équipe de créer un réseau social nommé PicReady. Nous avons suivi la gestion de projet SCRUM, j'étais donc dans le role du Product Owner.",
